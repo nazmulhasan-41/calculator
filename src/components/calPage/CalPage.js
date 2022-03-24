@@ -40,6 +40,8 @@ const CalPage = () => {
 
       const result=()=>{
         console.log(addbits(str))
+        setFinal(addbits(str))
+        
       }
 
 
@@ -54,6 +56,8 @@ const CalPage = () => {
                         <FloatingLabel controlId="floatingTextarea" label={str} className="mb-3">
                             <Form.Control as="textarea" placeholder="Leave a comment here" />
                         </FloatingLabel>
+                        {final}
+
                         <Row>
                             <Col className='buttonCol'>
                                 <div className='buttonArea'>
