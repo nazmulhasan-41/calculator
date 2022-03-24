@@ -1,0 +1,13 @@
+a.linkClass {
+    color: darkgrey;
+}
+
+a.linkClass {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+a.linkClass.appTitle {
+    color: antiquewhite;
+    font-style: italic;
+}
